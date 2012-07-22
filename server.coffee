@@ -27,7 +27,7 @@ app.configure 'production', ->
 # Routes
 
 app.get '/', routes.index
-#app.get '/test', require('./routes/test').test
+app.get '/images/:id', require('./routes/show').show
 
 port = process.env.PORT || 3000
 app.listen port, ->

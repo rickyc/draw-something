@@ -1,6 +1,11 @@
 body {
-  padding: 50px;
+  padding-top: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 1080px;
+  margin: auto auto;
+  text-align: center;
 }
 a {
   color: #00b7ff;
@@ -12,4 +17,7 @@ li {
 }
 li img {
   max-width: 300px;
+}
+img.border {
+  border: 20px solid #f4f4f4;
 }
