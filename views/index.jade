@@ -1,0 +1,7 @@
+.container
+  h1 Draw Something Archives
+
+  ul
+    - for (var i=1; i<=51; i++)
+      li: a(href="images/full/#{i}.png")
+        img(src="images/thumb/#{i}.png")
